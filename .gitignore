@@ -106,3 +106,6 @@ venv.bak/
 # api
 api-key.py
 
+# data
+.DS_Store
+data/.DS_Store
