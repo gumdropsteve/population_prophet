@@ -104,7 +104,7 @@ venv.bak/
 .mypy_cache/
 
 # api
-api-key.py
+/api-key.py
 
 # data
 .DS_Store
