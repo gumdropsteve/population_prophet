@@ -13,3 +13,7 @@ geographic-mobility-historical-data
 https://www.census.gov/data/tables/time-series/demo/geographic-mobility/historic.html 
 
 
+https://www.census.gov/programs-surveys/decennial-census/data/datasets.2010.html
+
+Modified Race Data 2010
+https://www.census.gov/data/datasets/2010/demo/popest/modified-race-data-2010.html
