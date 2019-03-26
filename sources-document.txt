@@ -13,7 +13,11 @@ geographic-mobility-historical-data
 https://www.census.gov/data/tables/time-series/demo/geographic-mobility/historic.html 
 
 
+Decennial Census Datasets
 https://www.census.gov/programs-surveys/decennial-census/data/datasets.2010.html
 
 Modified Race Data 2010
 https://www.census.gov/data/datasets/2010/demo/popest/modified-race-data-2010.html
+
+1 AMERICAN COMMUNITY SURVEY RESEARCH NOTEChange in Population ControlsSeptember 22, 2011
+https://www.census.gov/content/dam/Census/programs-surveys/acs/guidance/2010_Change_Population_Controls.pdf
