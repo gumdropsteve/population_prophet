@@ -1,0 +1,290 @@
+GEO.id,Id
+GEO.id2,Id2
+GEO.display-label,Geography
+SUBHD0101_S01,Number - Both sexes; Total population
+SUBHD0102_S01,Number - Male; Total population
+SUBHD0103_S01,Number - Female; Total population
+SUBHD0201_S01,Percent - Both sexes; Total population
+SUBHD0202_S01,Percent - Male; Total population
+SUBHD0203_S01,Percent - Female; Total population
+HD03_S01,Males per 100 females; Total population
+SUBHD0101_S02,Number - Both sexes; Total population - Under 5 years
+SUBHD0102_S02,Number - Male; Total population - Under 5 years
+SUBHD0103_S02,Number - Female; Total population - Under 5 years
+SUBHD0201_S02,Percent - Both sexes; Total population - Under 5 years
+SUBHD0202_S02,Percent - Male; Total population - Under 5 years
+SUBHD0203_S02,Percent - Female; Total population - Under 5 years
+HD03_S02,Males per 100 females; Total population - Under 5 years
+SUBHD0101_S03,Number - Both sexes; Total population - 5 to 9 years
+SUBHD0102_S03,Number - Male; Total population - 5 to 9 years
+SUBHD0103_S03,Number - Female; Total population - 5 to 9 years
+SUBHD0201_S03,Percent - Both sexes; Total population - 5 to 9 years
+SUBHD0202_S03,Percent - Male; Total population - 5 to 9 years
+SUBHD0203_S03,Percent - Female; Total population - 5 to 9 years
+HD03_S03,Males per 100 females; Total population - 5 to 9 years
+SUBHD0101_S04,Number - Both sexes; Total population - 10 to 14 years
+SUBHD0102_S04,Number - Male; Total population - 10 to 14 years
+SUBHD0103_S04,Number - Female; Total population - 10 to 14 years
+SUBHD0201_S04,Percent - Both sexes; Total population - 10 to 14 years
+SUBHD0202_S04,Percent - Male; Total population - 10 to 14 years
+SUBHD0203_S04,Percent - Female; Total population - 10 to 14 years
+HD03_S04,Males per 100 females; Total population - 10 to 14 years
+SUBHD0101_S05,Number - Both sexes; Total population - 15 to 19 years
+SUBHD0102_S05,Number - Male; Total population - 15 to 19 years
+SUBHD0103_S05,Number - Female; Total population - 15 to 19 years
+SUBHD0201_S05,Percent - Both sexes; Total population - 15 to 19 years
+SUBHD0202_S05,Percent - Male; Total population - 15 to 19 years
+SUBHD0203_S05,Percent - Female; Total population - 15 to 19 years
+HD03_S05,Males per 100 females; Total population - 15 to 19 years
+SUBHD0101_S06,Number - Both sexes; Total population - 20 to 24 years
+SUBHD0102_S06,Number - Male; Total population - 20 to 24 years
+SUBHD0103_S06,Number - Female; Total population - 20 to 24 years
+SUBHD0201_S06,Percent - Both sexes; Total population - 20 to 24 years
+SUBHD0202_S06,Percent - Male; Total population - 20 to 24 years
+SUBHD0203_S06,Percent - Female; Total population - 20 to 24 years
+HD03_S06,Males per 100 females; Total population - 20 to 24 years
+SUBHD0101_S07,Number - Both sexes; Total population - 25 to 29 years
+SUBHD0102_S07,Number - Male; Total population - 25 to 29 years
+SUBHD0103_S07,Number - Female; Total population - 25 to 29 years
+SUBHD0201_S07,Percent - Both sexes; Total population - 25 to 29 years
+SUBHD0202_S07,Percent - Male; Total population - 25 to 29 years
+SUBHD0203_S07,Percent - Female; Total population - 25 to 29 years
+HD03_S07,Males per 100 females; Total population - 25 to 29 years
+SUBHD0101_S08,Number - Both sexes; Total population - 30 to 34 years
+SUBHD0102_S08,Number - Male; Total population - 30 to 34 years
+SUBHD0103_S08,Number - Female; Total population - 30 to 34 years
+SUBHD0201_S08,Percent - Both sexes; Total population - 30 to 34 years
+SUBHD0202_S08,Percent - Male; Total population - 30 to 34 years
+SUBHD0203_S08,Percent - Female; Total population - 30 to 34 years
+HD03_S08,Males per 100 females; Total population - 30 to 34 years
+SUBHD0101_S09,Number - Both sexes; Total population - 35 to 39 years
+SUBHD0102_S09,Number - Male; Total population - 35 to 39 years
+SUBHD0103_S09,Number - Female; Total population - 35 to 39 years
+SUBHD0201_S09,Percent - Both sexes; Total population - 35 to 39 years
+SUBHD0202_S09,Percent - Male; Total population - 35 to 39 years
+SUBHD0203_S09,Percent - Female; Total population - 35 to 39 years
+HD03_S09,Males per 100 females; Total population - 35 to 39 years
+SUBHD0101_S10,Number - Both sexes; Total population - 40 to 44 years
+SUBHD0102_S10,Number - Male; Total population - 40 to 44 years
+SUBHD0103_S10,Number - Female; Total population - 40 to 44 years
+SUBHD0201_S10,Percent - Both sexes; Total population - 40 to 44 years
+SUBHD0202_S10,Percent - Male; Total population - 40 to 44 years
+SUBHD0203_S10,Percent - Female; Total population - 40 to 44 years
+HD03_S10,Males per 100 females; Total population - 40 to 44 years
+SUBHD0101_S11,Number - Both sexes; Total population - 45 to 49 years
+SUBHD0102_S11,Number - Male; Total population - 45 to 49 years
+SUBHD0103_S11,Number - Female; Total population - 45 to 49 years
+SUBHD0201_S11,Percent - Both sexes; Total population - 45 to 49 years
+SUBHD0202_S11,Percent - Male; Total population - 45 to 49 years
+SUBHD0203_S11,Percent - Female; Total population - 45 to 49 years
+HD03_S11,Males per 100 females; Total population - 45 to 49 years
+SUBHD0101_S12,Number - Both sexes; Total population - 50 to 54 years
+SUBHD0102_S12,Number - Male; Total population - 50 to 54 years
+SUBHD0103_S12,Number - Female; Total population - 50 to 54 years
+SUBHD0201_S12,Percent - Both sexes; Total population - 50 to 54 years
+SUBHD0202_S12,Percent - Male; Total population - 50 to 54 years
+SUBHD0203_S12,Percent - Female; Total population - 50 to 54 years
+HD03_S12,Males per 100 females; Total population - 50 to 54 years
+SUBHD0101_S13,Number - Both sexes; Total population - 55 to 59 years
+SUBHD0102_S13,Number - Male; Total population - 55 to 59 years
+SUBHD0103_S13,Number - Female; Total population - 55 to 59 years
+SUBHD0201_S13,Percent - Both sexes; Total population - 55 to 59 years
+SUBHD0202_S13,Percent - Male; Total population - 55 to 59 years
+SUBHD0203_S13,Percent - Female; Total population - 55 to 59 years
+HD03_S13,Males per 100 females; Total population - 55 to 59 years
+SUBHD0101_S14,Number - Both sexes; Total population - 60 to 64 years
+SUBHD0102_S14,Number - Male; Total population - 60 to 64 years
+SUBHD0103_S14,Number - Female; Total population - 60 to 64 years
+SUBHD0201_S14,Percent - Both sexes; Total population - 60 to 64 years
+SUBHD0202_S14,Percent - Male; Total population - 60 to 64 years
+SUBHD0203_S14,Percent - Female; Total population - 60 to 64 years
+HD03_S14,Males per 100 females; Total population - 60 to 64 years
+SUBHD0101_S15,Number - Both sexes; Total population - 65 to 69 years
+SUBHD0102_S15,Number - Male; Total population - 65 to 69 years
+SUBHD0103_S15,Number - Female; Total population - 65 to 69 years
+SUBHD0201_S15,Percent - Both sexes; Total population - 65 to 69 years
+SUBHD0202_S15,Percent - Male; Total population - 65 to 69 years
+SUBHD0203_S15,Percent - Female; Total population - 65 to 69 years
+HD03_S15,Males per 100 females; Total population - 65 to 69 years
+SUBHD0101_S16,Number - Both sexes; Total population - 70 to 74 years
+SUBHD0102_S16,Number - Male; Total population - 70 to 74 years
+SUBHD0103_S16,Number - Female; Total population - 70 to 74 years
+SUBHD0201_S16,Percent - Both sexes; Total population - 70 to 74 years
+SUBHD0202_S16,Percent - Male; Total population - 70 to 74 years
+SUBHD0203_S16,Percent - Female; Total population - 70 to 74 years
+HD03_S16,Males per 100 females; Total population - 70 to 74 years
+SUBHD0101_S17,Number - Both sexes; Total population - 75 to 79 years
+SUBHD0102_S17,Number - Male; Total population - 75 to 79 years
+SUBHD0103_S17,Number - Female; Total population - 75 to 79 years
+SUBHD0201_S17,Percent - Both sexes; Total population - 75 to 79 years
+SUBHD0202_S17,Percent - Male; Total population - 75 to 79 years
+SUBHD0203_S17,Percent - Female; Total population - 75 to 79 years
+HD03_S17,Males per 100 females; Total population - 75 to 79 years
+SUBHD0101_S18,Number - Both sexes; Total population - 80 to 84 years
+SUBHD0102_S18,Number - Male; Total population - 80 to 84 years
+SUBHD0103_S18,Number - Female; Total population - 80 to 84 years
+SUBHD0201_S18,Percent - Both sexes; Total population - 80 to 84 years
+SUBHD0202_S18,Percent - Male; Total population - 80 to 84 years
+SUBHD0203_S18,Percent - Female; Total population - 80 to 84 years
+HD03_S18,Males per 100 females; Total population - 80 to 84 years
+SUBHD0101_S19,Number - Both sexes; Total population - 85 to 89 years
+SUBHD0102_S19,Number - Male; Total population - 85 to 89 years
+SUBHD0103_S19,Number - Female; Total population - 85 to 89 years
+SUBHD0201_S19,Percent - Both sexes; Total population - 85 to 89 years
+SUBHD0202_S19,Percent - Male; Total population - 85 to 89 years
+SUBHD0203_S19,Percent - Female; Total population - 85 to 89 years
+HD03_S19,Males per 100 females; Total population - 85 to 89 years
+SUBHD0101_S20,Number - Both sexes; Total population - 90 years and over
+SUBHD0102_S20,Number - Male; Total population - 90 years and over
+SUBHD0103_S20,Number - Female; Total population - 90 years and over
+SUBHD0201_S20,Percent - Both sexes; Total population - 90 years and over
+SUBHD0202_S20,Percent - Male; Total population - 90 years and over
+SUBHD0203_S20,Percent - Female; Total population - 90 years and over
+HD03_S20,Males per 100 females; Total population - 90 years and over
+SUBHD0101_S21,Number - Both sexes; Total population - Under 18 years
+SUBHD0102_S21,Number - Male; Total population - Under 18 years
+SUBHD0103_S21,Number - Female; Total population - Under 18 years
+SUBHD0201_S21,Percent - Both sexes; Total population - Under 18 years
+SUBHD0202_S21,Percent - Male; Total population - Under 18 years
+SUBHD0203_S21,Percent - Female; Total population - Under 18 years
+HD03_S21,Males per 100 females; Total population - Under 18 years
+SUBHD0101_S22,Number - Both sexes; Total population - 18 to 64 years
+SUBHD0102_S22,Number - Male; Total population - 18 to 64 years
+SUBHD0103_S22,Number - Female; Total population - 18 to 64 years
+SUBHD0201_S22,Percent - Both sexes; Total population - 18 to 64 years
+SUBHD0202_S22,Percent - Male; Total population - 18 to 64 years
+SUBHD0203_S22,Percent - Female; Total population - 18 to 64 years
+HD03_S22,Males per 100 females; Total population - 18 to 64 years
+SUBHD0101_S23,Number - Both sexes; Total population - 18 to 64 years - 18 to 24 years
+SUBHD0102_S23,Number - Male; Total population - 18 to 64 years - 18 to 24 years
+SUBHD0103_S23,Number - Female; Total population - 18 to 64 years - 18 to 24 years
+SUBHD0201_S23,Percent - Both sexes; Total population - 18 to 64 years - 18 to 24 years
+SUBHD0202_S23,Percent - Male; Total population - 18 to 64 years - 18 to 24 years
+SUBHD0203_S23,Percent - Female; Total population - 18 to 64 years - 18 to 24 years
+HD03_S23,Males per 100 females; Total population - 18 to 64 years - 18 to 24 years
+SUBHD0101_S24,Number - Both sexes; Total population - 18 to 64 years - 25 to 44 years
+SUBHD0102_S24,Number - Male; Total population - 18 to 64 years - 25 to 44 years
+SUBHD0103_S24,Number - Female; Total population - 18 to 64 years - 25 to 44 years
+SUBHD0201_S24,Percent - Both sexes; Total population - 18 to 64 years - 25 to 44 years
+SUBHD0202_S24,Percent - Male; Total population - 18 to 64 years - 25 to 44 years
+SUBHD0203_S24,Percent - Female; Total population - 18 to 64 years - 25 to 44 years
+HD03_S24,Males per 100 females; Total population - 18 to 64 years - 25 to 44 years
+SUBHD0101_S25,Number - Both sexes; Total population - 18 to 64 years - 25 to 44 years - 25 to 34 years
+SUBHD0102_S25,Number - Male; Total population - 18 to 64 years - 25 to 44 years - 25 to 34 years
+SUBHD0103_S25,Number - Female; Total population - 18 to 64 years - 25 to 44 years - 25 to 34 years
+SUBHD0201_S25,Percent - Both sexes; Total population - 18 to 64 years - 25 to 44 years - 25 to 34 years
+SUBHD0202_S25,Percent - Male; Total population - 18 to 64 years - 25 to 44 years - 25 to 34 years
+SUBHD0203_S25,Percent - Female; Total population - 18 to 64 years - 25 to 44 years - 25 to 34 years
+HD03_S25,Males per 100 females; Total population - 18 to 64 years - 25 to 44 years - 25 to 34 years
+SUBHD0101_S26,Number - Both sexes; Total population - 18 to 64 years - 25 to 44 years - 35 to 44 years
+SUBHD0102_S26,Number - Male; Total population - 18 to 64 years - 25 to 44 years - 35 to 44 years
+SUBHD0103_S26,Number - Female; Total population - 18 to 64 years - 25 to 44 years - 35 to 44 years
+SUBHD0201_S26,Percent - Both sexes; Total population - 18 to 64 years - 25 to 44 years - 35 to 44 years
+SUBHD0202_S26,Percent - Male; Total population - 18 to 64 years - 25 to 44 years - 35 to 44 years
+SUBHD0203_S26,Percent - Female; Total population - 18 to 64 years - 25 to 44 years - 35 to 44 years
+HD03_S26,Males per 100 females; Total population - 18 to 64 years - 25 to 44 years - 35 to 44 years
+SUBHD0101_S27,Number - Both sexes; Total population - 18 to 64 years - 45 to 64 years
+SUBHD0102_S27,Number - Male; Total population - 18 to 64 years - 45 to 64 years
+SUBHD0103_S27,Number - Female; Total population - 18 to 64 years - 45 to 64 years
+SUBHD0201_S27,Percent - Both sexes; Total population - 18 to 64 years - 45 to 64 years
+SUBHD0202_S27,Percent - Male; Total population - 18 to 64 years - 45 to 64 years
+SUBHD0203_S27,Percent - Female; Total population - 18 to 64 years - 45 to 64 years
+HD03_S27,Males per 100 females; Total population - 18 to 64 years - 45 to 64 years
+SUBHD0101_S28,Number - Both sexes; Total population - 18 to 64 years - 45 to 64 years - 45 to 54 years
+SUBHD0102_S28,Number - Male; Total population - 18 to 64 years - 45 to 64 years - 45 to 54 years
+SUBHD0103_S28,Number - Female; Total population - 18 to 64 years - 45 to 64 years - 45 to 54 years
+SUBHD0201_S28,Percent - Both sexes; Total population - 18 to 64 years - 45 to 64 years - 45 to 54 years
+SUBHD0202_S28,Percent - Male; Total population - 18 to 64 years - 45 to 64 years - 45 to 54 years
+SUBHD0203_S28,Percent - Female; Total population - 18 to 64 years - 45 to 64 years - 45 to 54 years
+HD03_S28,Males per 100 females; Total population - 18 to 64 years - 45 to 64 years - 45 to 54 years
+SUBHD0101_S29,Number - Both sexes; Total population - 18 to 64 years - 45 to 64 years - 55 to 64 years
+SUBHD0102_S29,Number - Male; Total population - 18 to 64 years - 45 to 64 years - 55 to 64 years
+SUBHD0103_S29,Number - Female; Total population - 18 to 64 years - 45 to 64 years - 55 to 64 years
+SUBHD0201_S29,Percent - Both sexes; Total population - 18 to 64 years - 45 to 64 years - 55 to 64 years
+SUBHD0202_S29,Percent - Male; Total population - 18 to 64 years - 45 to 64 years - 55 to 64 years
+SUBHD0203_S29,Percent - Female; Total population - 18 to 64 years - 45 to 64 years - 55 to 64 years
+HD03_S29,Males per 100 females; Total population - 18 to 64 years - 45 to 64 years - 55 to 64 years
+SUBHD0101_S30,Number - Both sexes; Total population - 65 years and over
+SUBHD0102_S30,Number - Male; Total population - 65 years and over
+SUBHD0103_S30,Number - Female; Total population - 65 years and over
+SUBHD0201_S30,Percent - Both sexes; Total population - 65 years and over
+SUBHD0202_S30,Percent - Male; Total population - 65 years and over
+SUBHD0203_S30,Percent - Female; Total population - 65 years and over
+HD03_S30,Males per 100 females; Total population - 65 years and over
+SUBHD0101_S31,Number - Both sexes; Total population - 65 years and over - 65 to 74 years
+SUBHD0102_S31,Number - Male; Total population - 65 years and over - 65 to 74 years
+SUBHD0103_S31,Number - Female; Total population - 65 years and over - 65 to 74 years
+SUBHD0201_S31,Percent - Both sexes; Total population - 65 years and over - 65 to 74 years
+SUBHD0202_S31,Percent - Male; Total population - 65 years and over - 65 to 74 years
+SUBHD0203_S31,Percent - Female; Total population - 65 years and over - 65 to 74 years
+HD03_S31,Males per 100 females; Total population - 65 years and over - 65 to 74 years
+SUBHD0101_S32,Number - Both sexes; Total population - 65 years and over - 75 to 84 years
+SUBHD0102_S32,Number - Male; Total population - 65 years and over - 75 to 84 years
+SUBHD0103_S32,Number - Female; Total population - 65 years and over - 75 to 84 years
+SUBHD0201_S32,Percent - Both sexes; Total population - 65 years and over - 75 to 84 years
+SUBHD0202_S32,Percent - Male; Total population - 65 years and over - 75 to 84 years
+SUBHD0203_S32,Percent - Female; Total population - 65 years and over - 75 to 84 years
+HD03_S32,Males per 100 females; Total population - 65 years and over - 75 to 84 years
+SUBHD0101_S33,Number - Both sexes; Total population - 65 years and over - 85 years and over
+SUBHD0102_S33,Number - Male; Total population - 65 years and over - 85 years and over
+SUBHD0103_S33,Number - Female; Total population - 65 years and over - 85 years and over
+SUBHD0201_S33,Percent - Both sexes; Total population - 65 years and over - 85 years and over
+SUBHD0202_S33,Percent - Male; Total population - 65 years and over - 85 years and over
+SUBHD0203_S33,Percent - Female; Total population - 65 years and over - 85 years and over
+HD03_S33,Males per 100 females; Total population - 65 years and over - 85 years and over
+SUBHD0101_S34,Number - Both sexes; Total population - 16 years and over
+SUBHD0102_S34,Number - Male; Total population - 16 years and over
+SUBHD0103_S34,Number - Female; Total population - 16 years and over
+SUBHD0201_S34,Percent - Both sexes; Total population - 16 years and over
+SUBHD0202_S34,Percent - Male; Total population - 16 years and over
+SUBHD0203_S34,Percent - Female; Total population - 16 years and over
+HD03_S34,Males per 100 females; Total population - 16 years and over
+SUBHD0101_S35,Number - Both sexes; Total population - 18 years and over
+SUBHD0102_S35,Number - Male; Total population - 18 years and over
+SUBHD0103_S35,Number - Female; Total population - 18 years and over
+SUBHD0201_S35,Percent - Both sexes; Total population - 18 years and over
+SUBHD0202_S35,Percent - Male; Total population - 18 years and over
+SUBHD0203_S35,Percent - Female; Total population - 18 years and over
+HD03_S35,Males per 100 females; Total population - 18 years and over
+SUBHD0101_S36,Number - Both sexes; Total population - 21 years and over
+SUBHD0102_S36,Number - Male; Total population - 21 years and over
+SUBHD0103_S36,Number - Female; Total population - 21 years and over
+SUBHD0201_S36,Percent - Both sexes; Total population - 21 years and over
+SUBHD0202_S36,Percent - Male; Total population - 21 years and over
+SUBHD0203_S36,Percent - Female; Total population - 21 years and over
+HD03_S36,Males per 100 females; Total population - 21 years and over
+SUBHD0101_S37,Number - Both sexes; Total population - 60 years and over
+SUBHD0102_S37,Number - Male; Total population - 60 years and over
+SUBHD0103_S37,Number - Female; Total population - 60 years and over
+SUBHD0201_S37,Percent - Both sexes; Total population - 60 years and over
+SUBHD0202_S37,Percent - Male; Total population - 60 years and over
+SUBHD0203_S37,Percent - Female; Total population - 60 years and over
+HD03_S37,Males per 100 females; Total population - 60 years and over
+SUBHD0101_S38,Number - Both sexes; Total population - 62 years and over
+SUBHD0102_S38,Number - Male; Total population - 62 years and over
+SUBHD0103_S38,Number - Female; Total population - 62 years and over
+SUBHD0201_S38,Percent - Both sexes; Total population - 62 years and over
+SUBHD0202_S38,Percent - Male; Total population - 62 years and over
+SUBHD0203_S38,Percent - Female; Total population - 62 years and over
+HD03_S38,Males per 100 females; Total population - 62 years and over
+SUBHD0101_S39,Number - Both sexes; Total population - 67 years and over
+SUBHD0102_S39,Number - Male; Total population - 67 years and over
+SUBHD0103_S39,Number - Female; Total population - 67 years and over
+SUBHD0201_S39,Percent - Both sexes; Total population - 67 years and over
+SUBHD0202_S39,Percent - Male; Total population - 67 years and over
+SUBHD0203_S39,Percent - Female; Total population - 67 years and over
+HD03_S39,Males per 100 females; Total population - 67 years and over
+SUBHD0101_S40,Number - Both sexes; Total population - 75 years and over
+SUBHD0102_S40,Number - Male; Total population - 75 years and over
+SUBHD0103_S40,Number - Female; Total population - 75 years and over
+SUBHD0201_S40,Percent - Both sexes; Total population - 75 years and over
+SUBHD0202_S40,Percent - Male; Total population - 75 years and over
+SUBHD0203_S40,Percent - Female; Total population - 75 years and over
+HD03_S40,Males per 100 females; Total population - 75 years and over
+SUBHD0101_S41,Number - Both sexes; Total population - Median age (years)
+SUBHD0102_S41,Number - Male; Total population - Median age (years)
+SUBHD0103_S41,Number - Female; Total population - Median age (years)
+SUBHD0201_S41,Percent - Both sexes; Total population - Median age (years)
+SUBHD0202_S41,Percent - Male; Total population - Median age (years)
+SUBHD0203_S41,Percent - Female; Total population - Median age (years)
+HD03_S41,Males per 100 females; Total population - Median age (years)
