@@ -3,6 +3,9 @@ sources
 project home
 https://github.com/gumdropsteve/project-capstone
 
+# 2010 census
+https://www.census.gov/main/www/cen2000.html
+
 census-api
 https://github.com/datamade/census
 
@@ -11,7 +14,6 @@ https://www.census.gov/content/census/en/data/tables/time-series/dec/metro-micro
 
 geographic-mobility-historical-data
 https://www.census.gov/data/tables/time-series/demo/geographic-mobility/historic.html 
-
 
 Decennial Census Datasets
 https://www.census.gov/programs-surveys/decennial-census/data/datasets.2010.html
