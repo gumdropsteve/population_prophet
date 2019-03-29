@@ -3,7 +3,13 @@ sources
 project home
 https://github.com/gumdropsteve/project-capstone
 
-# 2010 census
+American Fact Finder
+https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml
+
+American Community Survey data-release
+https://www.census.gov/programs-surveys/acs/news/data-releases/2017/release-schedule.html
+
+2010 census
 https://www.census.gov/main/www/cen2000.html
 
 census-api
