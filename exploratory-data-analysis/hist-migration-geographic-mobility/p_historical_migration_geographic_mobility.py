@@ -3,6 +3,11 @@ import xlrd
 import numpy as np
 import pandas as pd
 
+'''
+Readable code to modify all Historical Migration Geographic Mobility data
+    as needed to achieve usability while maintaining readability
+'''
+
 # Table A-1. Annual Geographical Mobility Rates, By Type of Movement: 2018
 annual_geographical_mobility_rates_type_movement = pd.read_excel( '../data/cps-historical-migration-geographic-mobility/tab-a-1.xls' )
 
