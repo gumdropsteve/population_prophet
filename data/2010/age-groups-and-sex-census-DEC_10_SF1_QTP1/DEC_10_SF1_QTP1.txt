@@ -1,7 +1,10 @@
 QT-P1
 Age Groups and Sex: 2010
 
-NOTE: For information on confidentiality protection, nonsampling error, and definitions, see  http://www.census.gov/prod/cen2010/doc/sf1.pdf.
+NOTE: 
+    > For information on confidentiality protection, nonsampling error, and definitions, 
+        >> see 
+            > http://www.census.gov/prod/cen2010/doc/sf1.pdf (730pg)
 
 X Not applicable.
 
@@ -9,3 +12,24 @@ Source: U.S. Census Bureau, 2010 Census.
 
 Summary File 1, Tables P12, P13, and PCT12.
 
+> P12
+    >> refs
+        > pg. 15 , 96 , 104 , 139
+    >> actual
+        > pg. 198-199 
+    >> subsections
+        > pg. 220-231
+> P13
+    >> refs
+        > pg. 101 , 104 , 139
+    >> actual
+        > pg. 199 
+    >> subsections
+        > pg. 232-233
+> PCT12
+    >> refs
+        > pg. 15 , 95-96 , 104 , 152
+    >> actual
+        > pg. 316-321
+    >> subsections
+        > pg. 343-425
