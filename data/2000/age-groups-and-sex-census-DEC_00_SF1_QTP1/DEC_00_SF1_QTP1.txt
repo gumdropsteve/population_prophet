@@ -1,9 +1,11 @@
 QT-P1
 Age Groups and Sex: 2000
 
-NOTE:  For information on confidentiality protection,
-nonsampling error, definitions, and count corrections see
-http://www.census.gov/prod/cen2000/doc/sf1.pdf
+NOTE:  
+    >> For information on confidentiality protection, nonsampling error, definitions, and count corrections 
+        > see
+            >> http://www.census.gov/prod/cen2000/doc/sf1.pdf
+                > 637pg
 
 
 
@@ -11,7 +13,26 @@ http://www.census.gov/prod/cen2000/doc/sf1.pdf
 Source: U.S. Census Bureau, Census 2000 Summary File 1, Matrices
 P13 and PCT12.
 
-
+> P13
+    >> refs
+        > pg. 80 , 82 , 89 , 112 , 480
+    >> actual
+        > pg. 244
+    >> subsections
+        > refs 
+            >> pg. 127-128 , 268-269
+        > actual
+            >> pg.480
+> PCT12
+    >> refs
+        > pg. 7 , 12 , 77-78 , 82 , 97 , 169
+    >> actual
+        > pg. 317-321
+    >> subsections
+        > refs 
+            >> pg. 97-98 , 172-178
+        > actual
+            >> pg. 327-401
 
 
 (X) Not applicable.
