@@ -8,8 +8,6 @@ NOTE:
                 > 637pg
 
 
-
-
 Source: U.S. Census Bureau, Census 2000 Summary File 1, Matrices
 P13 and PCT12.
 
