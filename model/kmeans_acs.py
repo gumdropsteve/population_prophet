@@ -322,19 +322,41 @@ def kmeans_by(dataframe,n_clusters=10,converted=False):
     # fill NaN values
     t = d.copy().fillna(0)
     
-    # Convert DataFrame to matrix
+    # convert DataFrame to matrix
     mat = t.values
     
-    # Using sklearn
-    km = KMeans(n_clusters)
-    # fit our values
+    # sklearn
+    '''source: https://bit.ly/2I7OekQ
+    n_clusters : int, optional, default: 8
+    The number of clusters to form as well as the number of centroids to generate.
+    n_jobs : int or None, optional (default=None)
+        The number of jobs to use for the computation. This works by computing
+        each of the n_init runs in parallel.'''
+    km = KMeans(n_clusters,max_iter=1000.n_jobs=2)
+    # fit our matrix
     km.fit(mat)
     
-    # Get cluster assignment labels
+    # cluster assignment tags
     labels = km.labels_
     
-    # Format results as a DataFrame
+    # out as a DataFrame
     results = pd.DataFrame([t.index,labels]).T
 
-    # display results
+    # display out
     return results
+
+
+if __name__ == '__main__':
+    # load first 10,000 rows w/o reset
+    f = load_clean_frames( i=1 , n=1000 )
+
+    # store out
+    out = []
+    
+    # run kmeans on each dataframe
+    for i in range(len(f)):
+        z = kmeans_by( dataframe=f[i] , n_clusters=10 )
+        # store the output in out
+        out.append(z)
+        
+    return out
