@@ -32,3 +32,6 @@ https://www.census.gov/content/dam/Census/programs-surveys/acs/guidance/2010_Cha
 
 U.S. Population, Land Area and Density, 1790-2000
 https://www.u-s-history.com/pages/h986.html
+
+IPUMS NHGIS, University of Minnesota, www.nhgis.org
+ww.nhgis.org
