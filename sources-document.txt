@@ -29,3 +29,6 @@ https://www.census.gov/data/datasets/2010/demo/popest/modified-race-data-2010.ht
 
 1 AMERICAN COMMUNITY SURVEY RESEARCH NOTEChange in Population ControlsSeptember 22, 2011
 https://www.census.gov/content/dam/Census/programs-surveys/acs/guidance/2010_Change_Population_Controls.pdf
+
+U.S. Population, Land Area and Density, 1790-2000
+https://www.u-s-history.com/pages/h986.html
