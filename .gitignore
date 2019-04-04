@@ -69,6 +69,19 @@ docs/_build/
 # PyBuilder
 target/
 
+# NHGIS
+data/NHGIS/
+nhgis0001_csv.zip
+nhgis0001_csv
+nhgis0001_ts_geog2010_county.csv
+nhgis0001_ts_geog2010_county_codebook.txt
+nhgis0001_ts_geog2010_place.csv
+nhgis0001_ts_geog2010_place_codebook.txt
+nhgis0001_ts_nominal_county.csv
+nhgis0001_ts_nominal_county_codebook.txt
+nhgis0001_ts_nominal_place.csv
+nhgis0001_ts_nominal_place_codebook.txt
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
