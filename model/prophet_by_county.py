@@ -39,7 +39,7 @@ def prophet_by_county(years=20):
     # convert dt_columns into dataframe 
     datetime_df = pd.DataFrame(dt_columns).T
     # w/ columns, so concatable with measureable_unique_counties
-    datetime_df.columns = datetime_df.columns=measureable_unique_counties.columns
+    datetime_df.columns = measureable_unique_counties.columns
 
     # generate list of remaining counties (each as pd.Series)
     dfs_of_measureable_unique_counties = [measureable_unique_counties.iloc[county] for county in range(len(measureable_unique_counties))]
