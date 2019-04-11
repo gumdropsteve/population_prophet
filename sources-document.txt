@@ -42,5 +42,8 @@ https://www.census.gov/prod/2002pubs/pol02-ma.pdf
 History Decennial Census
 https://www.census.gov/history/www/programs/demographic/decennial_census.html
 
-fbprophet
+fbprophet quick start
 https://facebook.github.io/prophet/docs/quick_start.html
+
+fbprophet
+https://github.com/facebook/prophet
