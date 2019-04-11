@@ -1,5 +1,8 @@
 # project-capstone
 
+Presentation 
+- https://docs.google.com/presentation/d/13fey4Nzs-MHNS3qDf0GmpccINqg_SIVSE6mhTkwsUiM/edit?usp=sharing
+
 Wording incomplete 
 - project in 12 words
     - Predicting population growth or decline on scalable communities in the United States. (12)
