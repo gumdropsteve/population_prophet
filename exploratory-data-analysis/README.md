@@ -1,3 +1,13 @@
+Used:
+    - American_Community_Survey
+    - timeseries
+Not Used: 
+    - hist-migration-geographic-mobility
+    - tract-change.ipynb
+    - decintenial_census
+
+
+past:
 This folder contains Exploratory Data Analysis (EDA) on used and potential datasets
   - notebooks are titled by data set (or collection of sets) name
       - folders contain 2 or more related notebooks 
