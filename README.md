@@ -22,22 +22,7 @@ trying to sell it in 2019.
 On the other hand, however, if you were the individual who bought 
 the modest 4 bed, 4 bath, 4,437 sqft abode at 24 Clarendon Ave,
 San Francisco, CA 94114 on August 5th, 1996 for $588,000,
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![alt text](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/images/Screenshot_2019-04-11%20project_capstone_1pager.png)
 
 you could comfortably list it for a mere $4,400,000 and expect to
 sell in about 40 days, while moaning about how you should have 
@@ -47,6 +32,7 @@ The goal of this project is to utilize machine learning on combined
 US Census and American Community Survey datasets to predict
 future population of a given place in the United States.   
 
+![alt text](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/images/tech-used-Screenshot_2019-04-11%20project_capstone_1pager.png )
 
 Wording incomplete 
 - project in 12 words
