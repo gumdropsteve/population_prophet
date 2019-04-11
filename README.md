@@ -3,7 +3,7 @@
 Presentation 
 - https://docs.google.com/presentation/d/13fey4Nzs-MHNS3qDf0GmpccINqg_SIVSE6mhTkwsUiM/edit?usp=sharing
 
-Purpose
+Theoretical Continued Purpose
 When listing any house, the numerous measurements any 
 good REALTOR® will consider range from the condition of 
 the property to what’s for lunch that day. Most prevalent, though, 
@@ -20,17 +20,18 @@ resort in Sidney, Nebraska, you may encounter a few difficulties
 trying to sell it in 2019.
  
 On the other hand, however, if you were the individual who bought 
-the modest 4 bed, 4 bath, 4,437 sqft abode at 24 Clarendon Ave,
+the modest 4 bed, 4 bath, 4,437 sqft abode at [24 Clarendon Ave](https://www.realtor.com/realestateandhomes-detail/24-Clarendon-Ave_San-Francisco_CA_94114_M28366-36605),
 San Francisco, CA 94114 on August 5th, 1996 for $588,000,
 ![alt text](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/images/Screenshot_2019-04-11%20project_capstone_1pager.png)
 
 you could comfortably list it for a mere $4,400,000 and expect to
 sell in about 40 days, while moaning about how you should have 
-bought the house down the street, currently listed at $5,995,000.
+bought the [house down the street](https://www.zillow.com/homedetails/140-Clarendon-Ave-San-Francisco-CA-94114/15129075_zpid/?utm_source=email&utm_medium=email&utm_campaign=emo-sendtofriend-similar-homes-image&rtoken=558bffa9-675a-4f63-94d0-c46d8aee2893~X1-ZUyeh68ohf1og9_9skq8), currently listed at $5,995,000.
 
 The goal of this project is to utilize machine learning on combined
 US Census and American Community Survey datasets to predict
-future population of a given place in the United States.   
+future population of a given place in the United States. With the results
+we can move on to assess property values and how they relate.
 
 ![alt text](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/images/tech-used-Screenshot_2019-04-11%20project_capstone_1pager.png )
 
