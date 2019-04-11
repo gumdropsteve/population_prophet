@@ -1,4 +1,4 @@
-sources
+sources (no particular order)
 
 project home
 https://github.com/gumdropsteve/project-capstone
@@ -34,10 +34,13 @@ U.S. Population, Land Area and Density, 1790-2000
 https://www.u-s-history.com/pages/h986.html
 
 IPUMS NHGIS, University of Minnesota, www.nhgis.org
-ww.nhgis.org
+https://nhgis.org/ 
 
 Measuring America: The Decennial CensusesFrom 1790 to 2000
 https://www.census.gov/prod/2002pubs/pol02-ma.pdf
 
 History Decennial Census
 https://www.census.gov/history/www/programs/demographic/decennial_census.html
+
+fbprophet
+https://facebook.github.io/prophet/docs/quick_start.html
