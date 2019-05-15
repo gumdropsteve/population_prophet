@@ -3,7 +3,7 @@
 Presentation 
 - https://docs.google.com/presentation/d/13fey4Nzs-MHNS3qDf0GmpccINqg_SIVSE6mhTkwsUiM/edit?usp=sharing
 
-Theoretical Continued Purpose
+Theoretical Continued Purpose:
 When listing any house, the numerous measurements any 
 good REALTOR® will consider range from the condition of 
 the property to what’s for lunch that day. Most prevalent, though, 
