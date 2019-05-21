@@ -3,6 +3,34 @@
 - Winston Robson, April 2019
 ## Purpose
 This project aims to utilize machine learning on combined Census and American Community Survey datasets to accurately predict the future population of any place in the United States.
+## Table of Contents
+- Overview
+  - Presentation
+  - Dependencies
+  - Results (Summary)
+- Process
+- Model
+  - Prophet
+    - About
+    - Why it was used
+  - Specifications
+- Results
+  - Diagnostics
+    - cross_validation
+    - performance_metrics
+  - Plots & Predictions
+    - Bentonville, AR
+    - Pleasanton, CA
+    - San Francisco, CA
+    - New Orleans, LA
+    - Houston, TX
+    - New York City, NY
+    - Sidney, NE
+- Future Work
+### Presentation 
+- [One Pager](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/project_capstone_1pager.pdf)
+- [Resume](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/may_2019.pdf)
+- [Slides](https://docs.google.com/presentation/d/13fey4Nzs-MHNS3qDf0GmpccINqg_SIVSE6mhTkwsUiM/edit?usp=sharing)
 ### Dependencies <img align="right" src="https://github.com/gumdropsteve/project-capstone/blob/master/presentation/images/tech-used-Screenshot_2019-04-11%20project_capstone_1pager.png">
  - Python 3.7.2  
  - fbprophet 0.4.post2
@@ -10,12 +38,6 @@ This project aims to utilize machine learning on combined Census and American Co
  - NumPy 1.16.2
  - scikit-learn 0.20.3
  - Matplotlib 3.0.3
-
-### Presentation 
-- [One Pager](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/project_capstone_1pager.pdf)
-- [Resume](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/may_2019.pdf)
-- [Slides](https://docs.google.com/presentation/d/13fey4Nzs-MHNS3qDf0GmpccINqg_SIVSE6mhTkwsUiM/edit?usp=sharing)
-
 ## Modeling Process
 #### 1. Exploratory Data Analysis 
   - Examined large number of Geographic filters on Total Population
