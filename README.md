@@ -3,13 +3,14 @@
 - Winston Robson, April 2019
 ## Purpose
 This project aims to utilize machine learning on combined Census and American Community Survey datasets to accurately predict the future population of any place in the United States.
-### Dependencies
- - Python 3.7.2
+### Dependencies <img align="right" src="https://github.com/gumdropsteve/project-capstone/blob/master/presentation/images/tech-used-Screenshot_2019-04-11%20project_capstone_1pager.png">
+ - Python 3.7.2  
  - fbprophet 0.4.post2
  - pandas 0.24.1
  - NumPy 1.16.2
  - scikit-learn 0.20.3
  - Matplotlib 3.0.3
+
 ### Presentation 
 - [One Pager](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/project_capstone_1pager.pdf)
 - [Resume](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/may_2019.pdf)
@@ -93,8 +94,6 @@ The goal of this project is to utilize machine learning on combined
 US Census and American Community Survey datasets to predict
 future population of a given place in the United States. With the results
 we can move on to assess property values and how they relate.
-
-![alt text](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/images/tech-used-Screenshot_2019-04-11%20project_capstone_1pager.png )
 
 Wording incomplete 
 - project in 12 words
