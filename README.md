@@ -9,11 +9,11 @@ This project aims to utilize machine learning on combined Census and American Co
   - [Dependencies](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#dependencies)
   - Results (Summary)
 - [Process](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#process)
-- Model
+- [Model](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#model)
   - Prophet
     - About
     - Why it was used
-  - Specifications
+    - Specifications
 - [Results](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#results)
   - Diagnostics
     - cross_validation
@@ -78,9 +78,10 @@ This project aims to utilize machine learning on combined Census and American Co
     - In specific instances, however, it does come up short
       - "Sweet spots" seemed in Places with total population below 150,000 or above 650,000
         - Model struggled with mid-sized metropolises (e.g. New Orleans)
+## Model
+### Prophet
 
 ## Results
-### Prophet
 #### Bentonville, Arkansas
 ![Bentonville, Arkansas Prophet Plot](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/images/bentonville_prophet.png)
 #### Pleasanton, California
