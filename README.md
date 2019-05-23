@@ -11,7 +11,7 @@ This project aims to utilize machine learning on combined Census and American Co
 - [Process](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#process)
 - [Model](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#model)
   - Prophet
-    - About
+    - [About](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#About)
     - Why it was used
     - Specifications
 - [Results](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#results)
@@ -80,6 +80,9 @@ This project aims to utilize machine learning on combined Census and American Co
         - Model struggled with mid-sized metropolises (e.g. New Orleans)
 ## Model
 ### Prophet
+#### About
+#### Why it was used
+#### Specifications
 
 ## Results
 #### Bentonville, Arkansas
