@@ -79,12 +79,14 @@ This project aims to utilize machine learning on combined Census and American Co
 Prophet, an open source forecasting tool by Facebook available in Python and R. 
 ### About
 Forecasting is a data science task that is central to many activities within an organization. 
-For instance, large organizations like Facebook must engage in capacity planning to efficiently allocate scarce resources and goal setting in order to measure performance relative to a baseline. 
-Producing high quality forecasts is not an easy problem for either machines or for most analysts. 
-We have observed two main themes in the practice of creating a variety of business forecasts:
 
-    Completely automatic forecasting techniques can be brittle and they are often too inflexible to incorporate useful assumptions or heuristics.
-    Analysts who can produce high quality forecasts are quite rare because forecasting is a specialized data science skill requiring substantial experience.
+For instance, large organizations like Facebook must engage in capacity planning to efficiently allocate scarce resources and goal setting in order to measure performance relative to a baseline. 
+
+Producing high quality forecasts is not an easy problem for either machines or for most analysts. 
+
+We have observed two main themes in the practice of creating a variety of business forecasts:
+- Completely automatic forecasting techniques can be brittle and they are often too inflexible to incorporate useful assumptions or heuristics.
+- Analysts who can produce high quality forecasts are quite rare because forecasting is a specialized data science skill requiring substantial experience.
 #### Why it was used
 ### Model
 #### Specifications
@@ -92,6 +94,7 @@ We have observed two main themes in the practice of creating a variety of busine
 ## Results  
 ### Diagnostics
 ### Cross Validation
+#### Performance Metrics
 ### Plots & Predictions
 #### Sample Cities
 ##### Bentonville, Arkansas
