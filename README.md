@@ -19,13 +19,7 @@ This project aims to utilize machine learning on combined Census and American Co
     - [cross_validation](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#cross-validation)
     - [performance_metrics](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#preformance-metrics)
   - [Plots & Predictions](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#plots--predictions)
-    - Bentonville, AR
-    - Pleasanton, CA
-    - San Francisco, CA
-    - New Orleans, LA
-    - Houston, TX
-    - New York City, NY
-    - Sidney, NE
+    - Sample Cities(https://github.com/gumdropsteve/project-capstone/blob/master/README.md#sample-cities)
 - [Future Work](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#future-work)
 ### Presentation
 - [One Pager](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/project_capstone_1pager.pdf)
@@ -99,9 +93,10 @@ We have observed two main themes in the practice of creating a variety of busine
 ### Diagnostics
 ### Cross Validation
 ### Plots & Predictions
-#### Bentonville, Arkansas
+#### Sample Cities
+##### Bentonville, Arkansas
 ![Bentonville, Arkansas Prophet Plot](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/images/bentonville_prophet.png)
-#### Pleasanton, California
+##### Pleasanton, California
 ![Pleasanton, California Prophet Plot](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/images/pleasanton_prophet.png)
 
 ## Future Work:
