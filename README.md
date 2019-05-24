@@ -9,16 +9,16 @@ This project aims to utilize machine learning on combined Census and American Co
   - [Dependencies](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#dependencies)
   - Results (Summary)
 - [Process](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#process)
-- [Model](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#model)
-  - Prophet
+- [Prophet](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#prophet)
     - [About](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#about)
-    - [Why it was used](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#why-it-was-used)
+      - [Why it was used](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#why-it-was-used)
+    - [Model](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#model)
     - [Specifications](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#specifications)
 - [Results](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#results)
   - [Diagnostics](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#diagnostics)
     - [cross_validation](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#cross-validation)
     - [performance_metrics](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#preformance-metrics)
-  - [Plots & Predictions](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#plots-&-predictions)
+  - [Plots & Predictions](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#plots--predictions)
     - Bentonville, AR
     - Pleasanton, CA
     - San Francisco, CA
@@ -78,10 +78,21 @@ This project aims to utilize machine learning on combined Census and American Co
     - In specific instances, however, it does come up short
       - "Sweet spots" seemed in Places with total population below 150,000 or above 650,000
         - Model struggled with mid-sized metropolises (e.g. New Orleans)
-## Model
-### Prophet
-#### About
+        
+#### 7. Repeat 
+  - Hint: repeat
+## Prophet
+Prophet, an open source forecasting tool by Facebook available in Python and R. 
+### About
+Forecasting is a data science task that is central to many activities within an organization. 
+For instance, large organizations like Facebook must engage in capacity planning to efficiently allocate scarce resources and goal setting in order to measure performance relative to a baseline. 
+Producing high quality forecasts is not an easy problem for either machines or for most analysts. 
+We have observed two main themes in the practice of creating a variety of business forecasts:
+
+    Completely automatic forecasting techniques can be brittle and they are often too inflexible to incorporate useful assumptions or heuristics.
+    Analysts who can produce high quality forecasts are quite rare because forecasting is a specialized data science skill requiring substantial experience.
 #### Why it was used
+### Model
 #### Specifications
 
 ## Results  
