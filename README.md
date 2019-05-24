@@ -12,7 +12,7 @@ This project aims to utilize machine learning on combined Census and American Co
 - [Model](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#model)
   - Prophet
     - [About](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#About)
-    - Why it was used
+    - [Why it was used](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#Why-it-was-used)
     - Specifications
 - [Results](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#results)
   - Diagnostics
