@@ -1,7 +1,8 @@
 -* up to date status: revamps push 14 June
 # Forecasting Population by Place with Facebook Prophet
 - Version 0.1.08
-- Winston Robson, April 2019
+- [One pager](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/one_pager.pdf)
+- Spring 2019
 ## Purpose
 This project aims to utilize machine learning on combined Census and American Community Survey datasets to accurately predict the future population of any place in the United States.
 ## Table of Contents
