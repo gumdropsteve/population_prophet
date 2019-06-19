@@ -44,7 +44,10 @@ def prophet_place():
         
         # cross validate 
         
-        df_cv = cross_validation(place_prophet, initial='14235 days', period='180 days', horizon = '365 days')
+        df_cv = cross_validation(place_prophet, 
+                                 initial='14235 days', 
+                                 period='180 days', 
+                                 horizon = '365 days')
         # full metrics from crass validation
         df_p = performance_metrics(df_cv) 
         # add them to the list
@@ -52,7 +55,7 @@ def prophet_place():
         
         # make a future dataframe for 2016 & 2017 years
         place_forecast = place_prophet.make_future_dataframe(periods=3, 
-                                                            freq='Y')
+                                                             freq='Y')
         
         # establish predictions
         forecast = place_prophet.predict(place_forecast)
