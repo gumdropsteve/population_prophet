@@ -1,4 +1,3 @@
--* up to date status: revamps push 14 June
 # Forecasting Population by Place with Facebook Prophet
 - Version 0.1.08
 - [One pager](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/one_pager.pdf)
@@ -6,14 +5,12 @@
 ## Purpose
 This project aims to utilize machine learning on combined Census and American Community Survey datasets to accurately predict the future population of any place in the United States.
 ## Table of Contents
-- Overview
+- Executive Summary
   - [Presentation](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#presentation) 
   - [Dependencies](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#dependencies-)
-  - [Results](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#results) (Summary)
+  - [Results](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#results) (Overview)
 - [Process](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#process)
 - [Prophet](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#prophet)
-    - [About](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#about)
-      - [Why it was used](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#why-it-was-used)
     - [Model](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#model)
     - [Specifications](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#specifications)
 - [Results](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#results)
@@ -21,12 +18,10 @@ This project aims to utilize machine learning on combined Census and American Co
     - [cross_validation](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#cross-validation)
     - [performance_metrics](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#preformance-metrics)
   - [Plots & Predictions](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#plots--predictions)
-    - [Sample Cities](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#sample-cities)
-- [Future Work](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#future-work)
+    - [Sample Places](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#sample-places)
 ### Presentation
-- [One Pager](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/project_capstone_1pager.pdf)
+- [One Pager](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/one_pager.pdf)
 - [Resume](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/may_2019.pdf)
-- [Slides](https://docs.google.com/presentation/d/13fey4Nzs-MHNS3qDf0GmpccINqg_SIVSE6mhTkwsUiM/edit?usp=sharing)
 ### Dependencies <img align="right" width="372.6" height="253.8" src="https://github.com/gumdropsteve/project-capstone/blob/master/presentation/images/tech-used-Screenshot_2019-04-11%20project_capstone_1pager.png">
 - Python 3.7.2  
 - fbprophet 0.4.post2
@@ -35,13 +30,14 @@ This project aims to utilize machine learning on combined Census and American Co
 - scikit-learn 0.20.3
 - Matplotlib 3.0.3
 ### Results
+***Overview***
 - The model preformed with an average 2.29% cross validated Mean Absolute Percentage Error
     - Calculated by compairing the final training year's actual values with the Model's predictions for that year
-    - Predictions on test years 2016 and 2017 proved consistently better than this
-        - Averaged 1.826% and 1.993% MAPE (respectively)
-            - Slightly more accurate than Baseline assumption in 2016 (2.052%)
-            - Much more accurate than Baseline assumption in 2017 (3.855%)
-                - Baseline predicted change equal to the largest year-to-year change seen in the past 5 years
+- Predictions on test years 2016 and 2017 proved consistently better than this
+    - Averaged 1.826% and 1.993% MAPE (respectively)
+    - Slightly more accurate than Baseline in 2016, and much more accurate than Baseline in 2017 
+        - Averaged 2.052% and 3.855% MAPE (respectively)
+        - Baseline predicted change equal to the largest year-to-year change seen in the past 5 years
 ## Process
 #### 1. Exploratory Data Analysis 
   - Examined large number of Geographic filters on Total Population
@@ -86,30 +82,61 @@ This project aims to utilize machine learning on combined Census and American Co
 #### 7. Repeat 
   - Hint: repeat
 ## Prophet
-Prophet, an open source forecasting tool by Facebook available in Python and R. 
-### About
-Forecasting is a data science task that is central to many activities within an organization. 
-
-For instance, large organizations like Facebook must engage in capacity planning to efficiently allocate scarce resources and goal setting in order to measure performance relative to a baseline. 
-
-Producing high quality forecasts is not an easy problem for either machines or for most analysts. 
-
-We have observed two main themes in the practice of creating a variety of business forecasts:
-- Completely automatic forecasting techniques can be brittle and they are often too inflexible to incorporate useful assumptions or heuristics.
-- Analysts who can produce high quality forecasts are quite rare because forecasting is a specialized data science skill requiring substantial experience.
-#### Why it was used
+Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. The method was first open sourced by Facebook in late 2017, and is available in Python and R. 
 ### Model
-#### Specifications
-
+Prophet makes use of a decomposable time series model with three main model components: trend, seasonality, and holidays.
+`y(t) = g(t) + s(t) + h(t) + e(t)`
+where:
+- g(t)
+    - *trend* models non-periodic changes (i.e. growth over time)
+- s(t)
+    - *seasonality* presents periodic changes (i.e. weekly, monthly, yearly)
+- h(t)
+    - ties in effects of *holidays* (on potentially irregular schedules ≥ 1 day(s))
+- e(t)
+    - covers idiosyncratic changes not accommodated by the model
+- For more on the equation behind the procedure, check out [The Math of Prophet](https://medium.com/future-vision/the-math-of-prophet-46864fa9c55a)
+### Specifications
+As the question at hand relied on decennial and yearly datapoints, `Prophet`, was set to exclude daily and weekly seasonality while staying alert when identifying year-to-year trends and shifts in those trends over time. This was achieved;  
+```
+# use fbprophet to make Prophet model
+place_prophet = fbprophet.Prophet(changepoint_prior_scale=0.15,
+                                  daily_seasonality=False,
+                                  weekly_seasonality=False,
+                                  yearly_seasonality=True,
+                                  n_changepoints=10)
+```
 ## Results  
-### Diagnostics
-### Cross Validation
-#### Performance Metrics
-### Plots & Predictions
-#### Sample Cities
-##### Bentonville, Arkansas
-![Bentonville, Arkansas Prophet Plot](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/images/bentonville_prophet.png)
-##### Pleasanton, California
+- The model preformed with an average 2.29% cross validated Mean Absolute Percentage Error
+    - Calculated by compairing the final training year's actual values with the Model's predictions for that year
+- Predictions on test years 2016 and 2017 proved consistently better than this
+    - Averaged 1.826% and 1.993% MAPE (respectively)
+    - Slightly more accurate than Baseline in 2016, and much more accurate than Baseline in 2017 
+        - Averaged 2.052% and 3.855% MAPE (respectively)
+        - Baseline predicted change equal to the largest year-to-year change seen in the past 5 years
+- Results are based on averages from 5 random samples of 100 Places
+### Sample Places
+#### Pleasanton, California
+- Cross Validated MAPE = 2.6964%
 ![Pleasanton, California Prophet Plot](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/images/pleasanton_prophet.png)
-
-## Future Work:
+- 2000 actual: 63,654    
+- 2016
+    - actual: 77,046
+    - model: 79,398
+- 2017
+    - actual: 79,341
+    - model: 82,084
+- 2020 forecast: 87,920                    
+- 2040 forecast: 130,530
+#### Houston, Texas
+- Cross Validated MAPE = 1.5751%
+![Houston, Texas Prophet Plot](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/images/houston_prophet.png)
+- 2000 actual: 1,953,631  
+- 2016
+    - actual: 2,240,582
+    - model: 2,314,358
+- 2017
+    - actual: 2,267,336
+    - model: 2,398,134
+- 2020 forecast: 2,394,410                  
+- 2040 forecast: 2,794,675 
