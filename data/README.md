@@ -1,2 +1,1 @@
--* up to date status: revamps push 14 June
-- https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t
+Historical measurements 1970-2010 are not published here per request of NHGIS. They can be found [here](https://data2.nhgis.org/main).
