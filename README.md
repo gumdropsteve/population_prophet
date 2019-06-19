@@ -8,8 +8,8 @@ This project aims to utilize machine learning on combined Census and American Co
 ## Table of Contents
 - Overview
   - [Presentation](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#presentation) 
-  - [Dependencies](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#dependencies)
-  - Results (Summary)
+  - [Dependencies](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#dependencies-)
+  - [Results](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#results) (Summary)
 - [Process](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#process)
 - [Prophet](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#prophet)
     - [About](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#about)
@@ -21,19 +21,27 @@ This project aims to utilize machine learning on combined Census and American Co
     - [cross_validation](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#cross-validation)
     - [performance_metrics](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#preformance-metrics)
   - [Plots & Predictions](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#plots--predictions)
-    - Sample Cities(https://github.com/gumdropsteve/project-capstone/blob/master/README.md#sample-cities)
+    - [Sample Cities](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#sample-cities)
 - [Future Work](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#future-work)
 ### Presentation
 - [One Pager](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/project_capstone_1pager.pdf)
 - [Resume](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/may_2019.pdf)
 - [Slides](https://docs.google.com/presentation/d/13fey4Nzs-MHNS3qDf0GmpccINqg_SIVSE6mhTkwsUiM/edit?usp=sharing)
 ### Dependencies <img align="right" width="372.6" height="253.8" src="https://github.com/gumdropsteve/project-capstone/blob/master/presentation/images/tech-used-Screenshot_2019-04-11%20project_capstone_1pager.png">
- - Python 3.7.2  
- - fbprophet 0.4.post2
- - pandas 0.24.1
- - NumPy 1.16.2
- - scikit-learn 0.20.3
- - Matplotlib 3.0.3
+- Python 3.7.2  
+- fbprophet 0.4.post2
+- pandas 0.24.1
+- NumPy 1.16.2
+- scikit-learn 0.20.3
+- Matplotlib 3.0.3
+### Results
+- The model preformed with an average 2.29% cross validated Mean Absolute Percentage Error
+    - Calculated by compairing the final training year's actual values with the Model's predictions for that year
+    - Predictions on test years 2016 and 2017 proved consistently better than this
+        - Averaged 1.826% and 1.993% MAPE (respectively)
+            - Slightly more accurate than Baseline assumption in 2016 (2.052%)
+            - Much more accurate than Baseline assumption in 2017 (3.855%)
+                - Baseline predicted change equal to the largest year-to-year change seen in the past 5 years
 ## Process
 #### 1. Exploratory Data Analysis 
   - Examined large number of Geographic filters on Total Population
