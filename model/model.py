@@ -29,10 +29,10 @@ def prophet_place():
         
         # use fbprophet to make Prophet model
         place_prophet = fbprophet.Prophet(changepoint_prior_scale=0.15,
-                                        daily_seasonality=False,
-                                        weekly_seasonality=False,
-                                        yearly_seasonality=True,
-                                        n_changepoints=10)
+                                          daily_seasonality=False,
+                                          weekly_seasonality=False,
+                                          yearly_seasonality=True,
+                                          n_changepoints=7)
         
         # rename Place df's columns to agree with prophet formatting
         df.columns = ['drop','y','ds']
