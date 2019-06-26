@@ -1,4 +1,3 @@
--* up to date status: revamps push 14 June
 - Used:
     - American_Community_Survey
     - timeseries
