@@ -14,11 +14,7 @@ This project aims to utilize machine learning on combined Census and American Co
     - [Model](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#model)
     - [Specifications](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#specifications)
 - [Results](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#results)
-  - [Diagnostics](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#diagnostics)
-    - [cross_validation](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#cross-validation)
-    - [performance_metrics](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#preformance-metrics)
-  - [Plots & Predictions](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#plots--predictions)
-    - [Sample Places](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#sample-places)
+  - [Sample Places](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#sample-places)
 ### Presentation
 - [One Pager](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/one_pager.pdf)
 - [Resume](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/may_2019.pdf)
