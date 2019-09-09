@@ -91,7 +91,8 @@ where:
     - ties in effects of *holidays* (on potentially irregular schedules ≥ 1 day(s))
 - e(t)
     - covers idiosyncratic changes not accommodated by the model
-- For more on the equation behind the procedure, check out [The Math of Prophet](https://medium.com/future-vision/the-math-of-prophet-46864fa9c55a)
+- For more on the equation behind the procedure, check out [The Math of Prophet](https://medium.com/future-vision/the-math-of-prophet-46864fa9c55a) [10 min]
+- To learn more about how to use Prophet, see [Intro to Facebook Prophet](https://medium.com/future-vision/intro-to-prophet-9d5b1cbd674e) [9 min]
 ### Specifications
 As the question at hand relied on decennial and yearly datapoints, `Prophet`, was set to exclude daily and weekly seasonality while staying alert when identifying year-to-year trends and shifts in those trends over time. This was achieved;  
 ```
