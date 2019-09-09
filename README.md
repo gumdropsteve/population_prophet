@@ -1,24 +1,23 @@
 # Forecasting Population by Place with Facebook Prophet
 - Version 0.1
-- [One pager](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/one_pager.pdf)
-- Spring 2019
+- [One pager](https://github.com/gumdropsteve/population_prophet/blob/master/presentation/one_pager.pdf)
 ## Purpose
 This project aims to utilize machine learning on combined Census and American Community Survey datasets to accurately predict the future population of any place in the United States.
 ## Table of Contents
 - Executive Summary
-  - [Presentation](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#presentation) 
-  - [Dependencies](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#dependencies-)
-  - [Results](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#results) (Overview)
-- [Process](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#process)
-- [Prophet](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#prophet)
-    - [Model](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#model)
-    - [Specifications](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#specifications)
-- [Results](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#results)
-  - [Sample Places](https://github.com/gumdropsteve/project-capstone/blob/master/README.md#sample-places)
+  - [Presentation](https://github.com/gumdropsteve/population_prophet/blob/master/README.md#presentation) 
+  - [Dependencies](https://github.com/gumdropsteve/population_prophet/blob/master/README.md#dependencies-)
+  - [Results](https://github.com/gumdropsteve/population_prophet/blob/master/README.md#results) (Overview)
+- [Process](https://github.com/gumdropsteve/population_prophet/blob/master/README.md#process)
+- [Prophet](https://github.com/gumdropsteve/population_prophet/blob/master/README.md#prophet)
+    - [Model](https://github.com/gumdropsteve/population_prophet/blob/master/README.md#model)
+    - [Specifications](https://github.com/gumdropsteve/population_prophet/blob/master/README.md#specifications)
+- [Results](https://github.com/gumdropsteve/population_prophet/blob/master/README.md#results)
+  - [Sample Places](https://github.com/gumdropsteve/population_prophet/blob/master/README.md#sample-places)
 ### Presentation
-- [One Pager](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/one_pager.pdf)
-- [Resume](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/may_2019.pdf)
-### Dependencies <img align="right" width="372.6" height="253.8" src="https://github.com/gumdropsteve/project-capstone/blob/master/presentation/images/tech-used-Screenshot_2019-04-11%20project_capstone_1pager.png">
+- [One Pager](https://github.com/gumdropsteve/population_prophet/blob/master/presentation/one_pager.pdf)
+- [Resume](https://github.com/gumdropsteve/population_prophet/blob/master/presentation/may_2019.pdf)
+### Dependencies <img align="right" width="372.6" height="253.8" src="https://github.com/gumdropsteve/population_prophet/blob/master/presentation/images/tech-used-Screenshot_2019-04-11%20project_capstone_1pager.png">
 - Python 3.7.2  
 - fbprophet 0.4.post2
 - pandas 0.24.1
@@ -115,7 +114,7 @@ place_prophet = fbprophet.Prophet(changepoint_prior_scale=0.15,
 ### Sample Places
 #### Pleasanton, California
 - Cross Validated MAPE = 2.6964%
-![Pleasanton, California Prophet Plot](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/images/pleasanton_prophet.png)
+![Pleasanton, California Prophet Plot](https://github.com/gumdropsteve/population_prophet/blob/master/presentation/images/pleasanton_prophet.png)
 - 2000 actual: 63,654    
 - 2016
     - actual: 77,046
@@ -127,7 +126,7 @@ place_prophet = fbprophet.Prophet(changepoint_prior_scale=0.15,
 - 2040 forecast: 130,530
 #### Houston, Texas
 - Cross Validated MAPE = 1.5751%
-![Houston, Texas Prophet Plot](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/images/houston_prophet.png)
+![Houston, Texas Prophet Plot](https://github.com/gumdropsteve/population_prophet/blob/master/presentation/images/houston_prophet.png)
 - 2000 actual: 1,953,631  
 - 2016
     - actual: 2,240,582
