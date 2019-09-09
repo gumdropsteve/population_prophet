@@ -1,5 +1,5 @@
 # Forecasting Population by Place with Facebook Prophet
-- Version 0.1.08
+- Version 0.1
 - [One pager](https://github.com/gumdropsteve/project-capstone/blob/master/presentation/one_pager.pdf)
 - Spring 2019
 ## Purpose
